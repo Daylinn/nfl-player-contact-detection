@@ -1,0 +1,29 @@
+{
+  "val_auc": 0.9870974554945914,
+  "best_iteration": 117,
+  "params": {
+    "objective": "binary",
+    "metric": "auc",
+    "learning_rate": 0.05,
+    "num_leaves": 64,
+    "feature_fraction": 0.9,
+    "bagging_fraction": 0.9,
+    "bagging_freq": 1,
+    "min_data_in_leaf": 50,
+    "verbosity": -1,
+    "seed": 42
+  },
+  "feature_cols": [
+    "dist",
+    "dx",
+    "dy",
+    "rel_speed",
+    "speed_sum",
+    "rel_acc",
+    "dir_diff",
+    "closing_speed",
+    "rel_speed_vec"
+  ],
+  "n_train_rows": 4721618,
+  "n_train_groups_game_play": 240
+}
